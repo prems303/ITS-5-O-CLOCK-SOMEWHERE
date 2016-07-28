@@ -2,8 +2,8 @@
   "timezone":[
     {
       "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
+      "Name": "Dunedin",
+      "Drink": "Speights"
     },
     {
       "Time": 1800,
@@ -23,104 +23,7 @@
     {
       "Time": 2100,
       "Name": "Juneau",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-    {
-      "Time": 1700,
-      "Name": "Auckland",
-      "Drink": ""
-    },
-
-
+      "Drink": "Amber"
+    }
   ]
 }
