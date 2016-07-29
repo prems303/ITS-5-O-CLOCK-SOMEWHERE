@@ -1,6 +1,4 @@
-module.exports = {
-  data: data
-}
+
 
 var data = {
   timezones:[
@@ -180,6 +178,7 @@ function currentTime () {
   for (var i = 0; i < data.timezones.length; i++) {
     if(data.timezones[i].time === time){
       data.timezones[i].currentTime = true;
+      console.log(data.timezones[i])
     } else {
       data.timezones[i].currentTime = false;
     }
@@ -188,3 +187,7 @@ function currentTime () {
 }
 
 currentTime();
+
+module.exports = {
+  data: data
+}
