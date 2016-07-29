@@ -38,27 +38,39 @@ height: 35%;
 .flex-item2 {
 width: 50%;
 text-align: center;
+font-size: 3em;
+color: white;
 }
 .flex-item3 {
 width: 50%;
 text-align: center;
+font-size: 3em;
+color: white;
 }
 .flex-item4 {
 width: 50%;
 text-align: center;
+font-size: 3em;
+color: white;
 }
 .flex-item5 {
 width: 50%;
 text-align: center;
+font-size: 3em;
+color: white;
 }
 
 .flex-container3 {
 height: 35%;
 width: 97.5%;
 text-align: center;
+font-size: 3em;
+color: white;
 }
 
 .flex-container4 {
 width: 97.5%;
 text-align: center;
+font-size: 2em;
+color: white;
 }
