@@ -6,22 +6,22 @@ var data = {
       "time": 17,
       "name": "Dunedin",
       "drink": "Speights",
-      "lat": 45.8788,
+      "lat": -45.8788,
       "long": 170.5028
     },
     {
-      "time": 18,
+      "time": 16,
       "name": "Midway",
       "drink": "Rum",
       "lat": 28.2101,
-      "long": 177.3761
+      "long": -177.3761
     },
     {
-      "time": 19,
+      "time": 15,
       "name": "Rarotonga",
       "drink": "Kiva Pale Ale",
-      "lat": 21.2292,
-      "long": 159.7763
+      "lat": -21.2292,
+      "long": -159.7763
     },
     {
       "time": 20,
@@ -81,93 +81,93 @@ var data = {
     },
     {
       "time": 4,
-      "name": "Ponta Delgada",
+      "name": "Portugal",
       "drink": "Super Bock",
-      "lat": 37.7428,
-      "long": 25.6804
+      "lat": 39.4791,
+      "long": -12.3468
     },
     {
       "time": 5,
       "name": "London",
       "drink": "Budweiser",
-      "lat": 8.4657,
-      "long": 13.2317
+      "lat": 51.5287,
+      "long": -0.3817
     },
     {
       "time": 6,
       "name": "Madrid",
       "drink": "Sangria",
-      "lat": 40.4168,
-      "long": 3.7038
+      "lat": 40.4381,
+      "long": -3.8196
     },
     {
       "time": 7,
       "name": "Vienna",
       "drink": "Ottakringer",
-      "lat": 48.2082,
-      "long": 16.3738
+      "lat": 48.2208,
+      "long": 16.2399
     },
     {
       "time": 8,
       "name": "Moscow",
       "drink": "Absolut Vodka",
-      "lat": 55.7558,
-      "long": 37.6173
+      "lat": 55.7492,
+      "long": 37.0720
     },
     {
       "time": 9,
       "name": "Port Louis",
       "drink": "Pheonix",
-      "lat": 20.1609,
-      "long": 57.5012
+      "lat": -20.1628,
+      "long": 57.4268
     },
     {
       "time": 10,
       "name": "New Delhi",
       "drink": "King Fisher",
-      "lat": 20.1609,
-      "long": 57.5012
+      "lat": 28.5275,
+      "long": 77.0688
     },
     {
       "time": 11,
       "name": "Mayanmar",
       "drink": "Mandalay Beer",
-      "lat": 3.1189,
-      "long": 60.0215
+      "lat": 18.8739,
+      "long": 87.6236
     },
     {
       "time": 12,
       "name": "Singapore",
       "drink": "Tiger",
-      "lat": 1.3521,
-      "long": 103.8198
+      "lat": 1.3150,
+      "long": 103.7069
     },
     {
       "time": 13,
       "name": "Manilla",
       "drink": "Manilla Beer",
-      "lat": 37.7428,
-      "long": 25.6804
+      "lat": 14.5965,
+      "long": 120.9446
     },
     {
       "time": 14,
       "name": "Tokyo",
       "drink": "Shochu",
-      "lat": 35.6895,
-      "long": 139.6917
+      "lat": 35.6735,
+      "long": 139.5703
     },
     {
       "time": 15,
       "name": "Sydney",
       "drink": "Fosters",
-      "lat": 33.8688,
-      "long": 151.2093
+      "lat": -33.847404,
+      "long": 150.651795
     },
     {
       "time": 16,
       "name": "Port Vila",
       "drink": "Sherry",
-      "lat": 17.7333,
+      "lat": -17.7333,
       "long": 168.3273
     }
   ]
@@ -178,7 +178,6 @@ function currentTime () {
   for (var i = 0; i < data.timezones.length; i++) {
     if(data.timezones[i].time === time){
       data.timezones[i].currentTime = true;
-      console.log(data.timezones[i])
     } else {
       data.timezones[i].currentTime = false;
     }

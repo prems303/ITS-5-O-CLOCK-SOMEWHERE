@@ -14,7 +14,6 @@ app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'views'))
 
 app.get("/", function (req, res) {
-  console.log(data);
   res.render('index', data);
 })
 
