@@ -157,14 +157,14 @@ var data = {
       "long": 139.5703
     },
     {
-      "time": 15,
+      "time": 67,
       "name": "Sydney",
       "drink": "Fosters",
       "lat": -33.847404,
       "long": 150.651795
     },
     {
-      "time": 16,
+      "time": 556,
       "name": "Port Vila",
       "drink": "Sherry",
       "lat": -17.7333,
