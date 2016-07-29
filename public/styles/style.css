@@ -1,1 +1,48 @@
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px black dotted;
+  background-color: grey;
+  justify-content: space-around;
+}
 
+.flex-container1 {
+border: 2px black dotted;
+width: 80%;
+}
+
+.flex-item1 {
+
+}
+
+.flex-item2 {
+width: 50%;
+}
+.flex-item3 {
+width: 50%;
+}
+.flex-item4 {
+width: 50%;
+}
+.flex-item5 {
+width: 50%;
+}
+
+
+.flex-container2 {
+display: flex;
+flex-wrap: wrap;
+border: 2px black dotted;
+width: 80%;
+}
+
+.flex-container3 {
+border: 2px black dotted;
+width: 80%;
+}
+
+.flex-container4 {
+border: 2px black dotted;
+width: 80%;
+}
