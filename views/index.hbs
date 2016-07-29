@@ -2,13 +2,39 @@
 <html>
 <head>
   <meta charset="utf-8">
-<script src=https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css></script>
-<link src="../styles/style.css"></link
+  <style>
+      .flex-container {
+        height: 50%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  <script>
+    function initMap() {
+      // Create a map object and specify the DOM element for display.
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -44.397, lng: 174.644},
+        scrollwheel: false,
+        zoom: 8
+      });
+      console.log(map)
+    }
+
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDNGnZS3lFLPw1DLC_5gAT5F_9hga1c-k&callback=initMap"
+  async defer></script>
+
+
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css></script>
+  <link src="../styles/style.css"></link>
 </head>
 <body>
 <ul>
   <ul class = "flex-container">
-    <li class = "flex-item">  pictures </li>
+    <li class = "flex-item"> <div id="map"> </div></li>
   </ul>
     <ul class = "flex-container2">
       <li class = "flex-item">  Place </li>
