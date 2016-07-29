@@ -17,15 +17,14 @@
   function initMap() {
     // Create a map object and specify the DOM element for display.
 
-    var lat = document.getElementById("latitude").innerHTML
+    var lat = document.getElementById("latitude")
 
-    var long = document.getElementById("longitude").innerHTML
+    var long = document.getElementById("longitude")
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: lat, lng: long},
+      center: {lat: parseInt(lat.innerHTML,10), lng: parseInt(long.innerHTML,10)},
       scrollwheel: false,
-      zoom: 8
+      zoom: 4
     });
-    console.log(map)
   }
 
 </script>
@@ -39,6 +38,8 @@ async defer></script>
 <body>
 {{#each data.timezones}}
   {{#if currentTime}}
+  <div id="latitude">{{lat}}</div>
+  <div id="longitude">{{long}}</div>
     <ul>
     <ul class = "flex-container">
       <ul class = "flex-container1">
@@ -61,8 +62,7 @@ async defer></script>
         <li class = "flex-item"> foot thing </li>
       </ul>
 
-      <div id="latitude">{{lat}}</div>
-      <div id="logitude">{{long}}</div>
+
 
     </ul>
   {{/if}}
