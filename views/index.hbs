@@ -3,57 +3,71 @@
 <head>
   <meta charset="utf-8">
   <style>
-      .flex-container {
-        height: 50%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        height: 100%;
-      }
-    </style>
-  <script>
-    function initMap() {
-      // Create a map object and specify the DOM element for display.
-      var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: -44.397, lng: 174.644},
-        scrollwheel: false,
-        zoom: 8
-      });
-      console.log(map)
+    .flex-container {
+      height: 50%;
+      margin: 0;
+      padding: 0;
     }
+    #map {
+      height: 100%;
+    }
+  </style>
+<script>
 
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDNGnZS3lFLPw1DLC_5gAT5F_9hga1c-k&callback=initMap"
-  async defer></script>
+  function initMap() {
+    // Create a map object and specify the DOM element for display.
+
+    var lat = document.getElementById("latitude")
+
+    var long = document.getElementById("longitude")
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: parseInt(lat.innerHTML,10), lng: parseInt(long.innerHTML,10)},
+      scrollwheel: false,
+      zoom: 4
+    });
+  }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDNGnZS3lFLPw1DLC_5gAT5F_9hga1c-k&callback=initMap"
+async defer></script>
 
 
-  <script src=https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css></script>
-  <link src="../styles/style.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
+
 <body>
-<ul>
-  <ul class = "flex-container">
-    <li class = "flex-item"> <div id="map"> </div></li>
-  </ul>
-    <ul class = "flex-container2">
-      <li class = "flex-item">  Place </li>
-      <li class = "flex-item">  Time </li>
-      <li class = "flex-item">  Drink </li>
-      <li class = "flex-item">  Rating </li>
+{{#each data.timezones}}
+  {{#if currentTime}}
+  <div id="latitude">{{lat}}</div>
+  <div id="longitude">{{long}}</div>
+    <ul>
+    <ul class = "flex-container">
+      <ul class = "flex-container1">
+        <li class = "flex-item1"> <div id="map"> </div></li>
+      </ul>
+        <ul class = "flex-container2">
+
+          <li class = "flex-item2">  {{name}} </li>
+          <li class = "flex-item3">  {{time}} </li>
+          <li class = "flex-item4">  {{drink}} </li>
+          <li class = "flex-item5">  Rating *to be added </li>
+        </ul>
+      </li>
+
+      <ul class = "flex-container3">
+        <li class = "flex-item"> main info> </li>
+      </ul>
+
+      <ul class = "flex-container4">
+        <li class = "flex-item"> foot thing </li>
+      </ul>
+
+
+
     </ul>
-  </li>
-
-  <ul class = "flex-container3">
-    <li class = "flex-item"> main info> </li>
-  </ul>
-
-  <ul class = "flex-container4">
-    <li class = "flex-item"> foot thing </li>
-  </ul>
-
-</ul>
-
+  {{/if}}
+{{/each}}
 
 </body>
 

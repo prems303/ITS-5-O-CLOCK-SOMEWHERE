@@ -1,1 +1,64 @@
+ul{
+  list-style: none;
+}
 
+body{
+background-image: url('../styles/beachy.jpg');
+}
+.flex-container {
+  width: 35%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: -webkit-linear-gradient(#009FF4, #9CC9F4); /* For Safari 5.1 to 6.0 */
+  margin: auto;
+  padding-right: 2%;
+  padding-top: .7%;
+  padding-bottom: .7%;
+  margin-top: 2%
+}
+.flex-container1 {
+
+width: 97.5%;
+text-align: center;
+}
+
+.flex-item1 {
+height: 35%;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97.5%;
+  height: 15%;
+}
+
+.flex-item2 {
+width: 50%;
+text-align: center;
+}
+.flex-item3 {
+width: 50%;
+text-align: center;
+}
+.flex-item4 {
+width: 50%;
+text-align: center;
+}
+.flex-item5 {
+width: 50%;
+text-align: center;
+}
+
+.flex-container3 {
+height: 35%;
+width: 97.5%;
+text-align: center;
+}
+
+.flex-container4 {
+width: 97.5%;
+text-align: center;
+}
