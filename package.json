@@ -1,31 +1,31 @@
 {
-  "name": "fiveoclock",
-  "version": "0.1.0",
-  "description": "its 5 o clock somewhere ",
-  "main": "server.js",
-  "scripts": {
-    "nodemon": "nodemon server.js",
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kamon-harrell/ITS-5-O-CLOCK-SOMEWHERE.git"
-  },
-  "keywords": [
-    "five",
-    "beer",
-    "somewhere"
-  ],
-  "author": "Erwin Kamon Sam & Prem",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kamon-harrell/ITS-5-O-CLOCK-SOMEWHERE/issues"
-  },
-  "homepage": "",
-  "dependencies": {
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0",
-    "moment": "^2.14.1",
-    "nodemon": "^1.10.0"
-  }
+    "name": "fiveoclock",
+    "version": "0.1.0",
+    "description": "its 5 o clock somewhere ",
+    "main": "server.js",
+    "scripts": {
+        "nodemon": "nodemon server.js",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kamon-harrell/ITS-5-O-CLOCK-SOMEWHERE.git"
+    },
+    "keywords": [
+        "five",
+        "beer",
+        "somewhere"
+    ],
+    "author": "Erwin Kamon Sam & Prem",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kamon-harrell/ITS-5-O-CLOCK-SOMEWHERE/issues"
+    },
+    "homepage": "",
+    "dependencies": {
+        "express": "^4.14.0",
+        "express-handlebars": "^3.0.0",
+        "moment": "^2.14.1",
+        "nodemon": "^1.10.0"
+    }
 }
